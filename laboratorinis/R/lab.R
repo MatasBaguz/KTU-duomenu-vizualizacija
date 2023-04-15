@@ -1,6 +1,6 @@
 ##########################################
 library(readr)
-read.csv("C:/Users/matas/Documents/lab_sodra.csv")
+read.csv("../data/lab_sodra.csv")
 head(lab_sodra)
 library(dplyr)
 Filtras = filter(lab_sodra,ecoActCode==471900)

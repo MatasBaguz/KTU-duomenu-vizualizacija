@@ -3,7 +3,7 @@
   library(readr)
   library(ggplot2)
   
-  data = read.csv("C:/Users/matas/Documents/lab_sodra.csv")
+  data = read.csv("../data/lab_sodra.csv")
   prafiltruota = data[data$ecoActCode == "471900",]
   
   # UI 
