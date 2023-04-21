@@ -23,11 +23,9 @@ Top5 = Filtras %>%
 Top51 <- Filtras %>%
   filter(name %in% Top5$name)
 
-ggplot(Top51, aes(x=Top51$month, y=Top51$avgWage))+geom_quantile()+
-  theme_minimal()
 
 ggplot(Top51, aes(x=month, y=avgWage, color=name)) +
-  geom_quantile() +
+  geom_line() +
   scale_color_manual(values = c("red", "blue", "green", "purple", "gold")) +
   labs(x = "Month", y = "Average Wage", title = "Average Wage by Month for Top 5 Companies") +
   theme_minimal() +
@@ -44,7 +42,7 @@ Top51 %>%
   slice_max(numInsured,n=1)%>%
   top_n(numInsured, n=5)
 
-ggplot(Top52, aes(x=reorder(name, -numInsured), y=numInsured))+geom_col(fill = "steelblue") +
+ggplot(Top51, aes(x=reorder(name, -numInsured), y=numInsured))+geom_col(fill = "steelblue") +
   theme_minimal()+
   labs(title = "Number of insured employees", x="Company", Y="Count")
 
