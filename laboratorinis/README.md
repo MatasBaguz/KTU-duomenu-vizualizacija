@@ -9,7 +9,7 @@
 
 Atsakymas:
 
-![histograma](img/1 histograma.png)
+![histograma](img/1.png)
 
 Išvados:
 
@@ -17,7 +17,7 @@ Išvados:
 
 Atsakymas:
 
-![atlyginimai](img/2.11 grafikas.png)
+![atlyginimai](img/2.png)
 
 Išvados:
 
@@ -26,7 +26,7 @@ Išvados:
 
 Atsakymas:
 
-![apdraustieji](img/3.11 grafikas.png)
+![apdraustieji](img/3.png)
 
 Išvados:
 
@@ -35,4 +35,5 @@ Išvados:
 
 Shiny R aplikacijos nuotrauka:
 
-![shiny app](img/4 Shiny app.png)
+![shiny app](img/4.PNG)
+
