@@ -17,7 +17,7 @@ Išvados:
 
 Atsakymas:
 
-![atlyginimai](img/2.png)
+![atlyginimai](img/2.PNG)
 
 Išvados:
 
